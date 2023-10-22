@@ -1,0 +1,103 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the main content section */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.featured-article {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.featured-article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-article h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-list article {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 20px);
+}
+
+.article-list article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-list article h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #4a88bb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
